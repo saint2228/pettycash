@@ -1,0 +1,18 @@
+include MANIFEST.in
+include requirements.txt
+include *.json
+include *.md
+include *.py
+include *.txt
+recursive-include pettycash *.css
+recursive-include pettycash *.csv
+recursive-include pettycash *.html
+recursive-include pettycash *.ico
+recursive-include pettycash *.js
+recursive-include pettycash *.json
+recursive-include pettycash *.md
+recursive-include pettycash *.png
+recursive-include pettycash *.py
+recursive-include pettycash *.svg
+recursive-include pettycash *.txt
+recursive-exclude pettycash *.pyc
